@@ -125,6 +125,7 @@ footer {
 
 @media (min-width: 576px) {
     .container {
+        min-height: 100vh;
         grid-template-areas:
             "header nav"
             "header main"
@@ -167,7 +168,12 @@ footer {
     }
 
     footer {
-        font-size: 0.8em;
+        font-size: 0.7em;
         align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        width: 22px;
     }
 }
